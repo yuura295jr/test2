@@ -1,0 +1,65 @@
+html{
+    font-family: monospace;
+}
+
+body {
+    background-color: bisque;
+}
+
+
+.bungkus a {
+    color: white;
+}
+
+.container-l{
+    background-image: url(imgbg/background.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 30rem;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15%;
+}
+
+
+.logo {
+    width: 30%;
+    height: 30%;
+}
+
+.textV {
+    font-size: 3rem;
+}
+
+.visi p {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 720px){
+    .logo {
+        width: 30%;
+        height: 30%;
+    }
+
+    .container-l{
+        background-image: url(imgbg/bg.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10rem;
+        padding-bottom: 15rem;
+    }
+
+    .container-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -16%;
+    }
+}

@@ -1,0 +1,142 @@
+
+
+
+html{
+    font-family: monospace;
+}
+
+body {
+    background-color: bisque;
+}
+
+.bungkus a {
+    color: white;
+}
+
+.container-l{
+    background-image: url(imgbg/background.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 30rem;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15%;
+}
+
+
+.logo {
+    width: 30%;
+    height: 30%;
+}
+
+.teksSelamat p{
+
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cardBox {
+    padding: 3rem;
+}
+
+
+/* .img-brain-error, .card{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding-top: 5rem;
+} */
+
+.buttom {
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn {
+    color: white;
+}
+
+.buttom a {
+    text-decoration: none;
+    text-align: center;
+    background-color: blue;
+    margin: 3rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    padding: 10px ;
+    border: 1px dashed grey;
+    border-radius: 30px;
+}
+
+
+.created {
+    text-align: center; font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 720px){
+    .logo {
+        width: 30%;
+        height: 30%;
+    }
+
+    .container-l{
+        background-image: url(imgbg/bg.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10rem;
+        padding-bottom: 15rem;
+    }
+
+    .container-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -16%;
+    }
+
+    .teksSelamat p{
+
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+    .buttom a {
+        color: white;
+        background-color: blue;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+        border: 1px dashed grey;
+    }
+    
+    .buttom {
+        padding: 3rem;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 13rem;
+    }
+
+    .created {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
